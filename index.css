@@ -74,3 +74,16 @@ button{
 img{
     width: 2em;
 }
+a button{
+    width: 100px;
+    padding: 8px 2px 8px 2px;
+    border-radius: 15px;
+    border: 1px solid rgb(41, 38, 38);
+    background-color: aliceblue;
+    font-size: 10px;
+    color: rgb(0, 0, 0);
+}
+#next:hover{
+    color: white;
+    background-color: black;
+}
