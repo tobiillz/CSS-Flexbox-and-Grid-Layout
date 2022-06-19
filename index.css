@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 100vw;
+    margin: auto;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.cards-parent{
+    width: 45vw;
+    height: 340px;
+    display: flex;
+    border-radius: 5px;
+    border: 1px solid;
+
+}
+.cards{
+    padding: 2em;
+}
+#one{
+    background-color: #e28525;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+#two{
+    background-color: #016972;
+}
+#three{
+    background-color: #00403f;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+h2{
+    margin-top: .8em;
+    margin-bottom: .8em;
+    font-family: 'Oswald', sans-serif;
+}
+p{
+    height: 50%;
+    font-size: 0.8em;
+    margin-bottom: 1.em;
+}
+button{
+    width: 100px;
+    padding: 8px 2px 8px 2px;
+    border-radius: 15px;
+    border: 1px solid white;
+    background-color: aliceblue;
+    font-size: 10px;
+    color: white;
+}
+
+#btn-one{
+    color: #e28525;
+}
+#btn-two{
+    color: #016972;
+}
+#btn-three{
+    color: #00403f;
+}
+
+#btn-one:hover,#btn-two:hover, #btn-three:hover{
+    color: white;
+    background-color: transparent;
+}
+img{
+    width: 2em;
+}
