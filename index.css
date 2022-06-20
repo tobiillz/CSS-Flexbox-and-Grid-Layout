@@ -20,6 +20,7 @@ main{
     display: flex;
     border-radius: 5px;
     border: 1px solid;
+    margin: auto;
 
 }
 .cards{
