@@ -12,6 +12,7 @@ main{
     justify-content: center;
     align-items: center;
     color: white;
+    flex-direction: column;
 }
 .cards-parent{
     width: 45vw;
@@ -82,6 +83,8 @@ a button{
     background-color: aliceblue;
     font-size: 10px;
     color: rgb(0, 0, 0);
+    /* position: fixed; */
+    margin: auto;
 }
 #next:hover{
     color: white;
